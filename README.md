@@ -18,10 +18,10 @@ question it, and never trust a result I can't reproduce. Now focused on data & b
 
 ### 📦 Featured projects
 
-**[crypto-data-platform](https://github.com/wesseltl/crypto-data-platform)** — real-time crypto market-data pipeline
-Websocket trade collector → SQLite → OHLCV/VWAP aggregation → query API + live candlestick dashboard,
-with honest analytics (volatility forecasting, anomaly detection) and risk-based position sizing.
-Idempotent ingestion, unit-tested, Dockerized.
+**[crypto-data-platform](https://github.com/wesseltl/crypto-data-platform)** — real-time market-data pipeline
+Websocket collector → SQLite → OHLCV/VWAP aggregation → query API + live dashboard, with analytics
+(volatility forecasting, anomaly detection). Idempotent ingestion, unit-tested, Dockerized.
+*(Domain: crypto market data.)*
 ▶ **Live demo → https://wesseltl.github.io/crypto-data-platform/**
 
 **[data-cleaner-agent](https://github.com/wesseltl/data-cleaner-agent)** — agentic data-cleaning workflow
