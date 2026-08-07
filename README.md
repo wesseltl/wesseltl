@@ -4,8 +4,8 @@ Python developer working on data pipelines, backend services, web scraping, and 
 Freelance portal: [wesseltl.github.io](https://wesseltl.github.io)
 
 I spent six years working in molecular diagnostics labs before moving into software, and that's where
-I got careful with data: check it, reproduce it, don't trust a number you can't back up. Everything in
-these repos runs and has tests. Based in Hoofddorp, NL. Open to freelance and data/backend work.
+I got careful with data: check it, reproduce it, don't trust a number you can't back up. Based in
+Hoofddorp, NL. Open to freelance and data/backend work.
 
 ### Tech
 
