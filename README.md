@@ -1,22 +1,18 @@
-## Hi, I'm Wessel 👋
+## Wessel ter Laak
 
-**Data & Backend Engineer — Python · real-time data · automation**
+Python developer — data pipelines, backend services, web scraping, and AI-agent tooling.
+Freelance portal: [wesseltl.github.io](https://wesseltl.github.io)
 
-🌐 **[wesseltl.github.io](https://wesseltl.github.io)** — my freelance portal · open for freelance work
+I spent six years working in molecular diagnostics labs before moving into software, and that's where
+I got careful with data: check it, reproduce it, don't trust a number you can't back up. Everything in
+these repos runs and has tests. Based in Hoofddorp, NL. Open to freelance and data/backend work.
 
-I build the data and automation software companies run on — real-time ingestion, storage, aggregation,
-APIs, and AI-agent workflows — backed by a portfolio of working, tested projects. A molecular
-life-science background (diagnostics, GMP rigor) taught me to treat data carefully: validate it,
-question it, and never trust a result I can't reproduce. Now focused on data & backend engineering.
+### Tech
 
-📍 Hoofddorp, Netherlands
+`Python` · `SQL` · websockets / real-time data · ETL & aggregation · `pandas` / `NumPy` · REST APIs ·
+`SQLite` · `Git` · `Docker` · unit testing · AI-agent workflows
 
-### 🔧 What I work with
-
-`Python` · `SQL` · real-time data (websockets) · ETL & aggregation · `pandas` / `NumPy` · REST APIs ·
-`SQLite` · `Git` · `Docker` · unit testing · AI-agent workflows · honest out-of-sample validation
-
-### 📦 Featured projects
+### Projects
 
 **[crypto-data-platform](https://github.com/wesseltl/crypto-data-platform)** — real-time market-data pipeline
 Websocket collector → SQLite → OHLCV/VWAP aggregation → query API + live dashboard, with analytics
@@ -25,8 +21,9 @@ Websocket collector → SQLite → OHLCV/VWAP aggregation → query API + live d
 ▶ **Live demo → https://wesseltl.github.io/crypto-data-platform/**
 
 **[data-cleaner-agent](https://github.com/wesseltl/data-cleaner-agent)** — agentic data-cleaning workflow
-A planner (rule-based or LLM) reasons about messy data and picks the cleaning steps; deterministic
-tools do the actual transformation — the model plans, trusted code executes. Unit-tested.
+A planner (rule-based, or an LLM) decides which cleaning steps a messy dataset needs. The actual
+transformations are done by plain tested Python functions, so the model never touches the data
+directly. Unit-tested.
 
 **[dex-sim](https://github.com/wesseltl/dex-sim)** — AMM / DEX mechanics simulator
 Constant-product (Uniswap v2) and concentrated-liquidity (v3) pools: swaps, slippage, price impact
@@ -37,12 +34,12 @@ A country-neutral core (ingest → holdings → prices) plus per-country rules p
 first). Exact `Decimal` money handling, a swappable price source, unit-tested.
 
 **[ml-validation-pipeline](https://github.com/wesseltl/ml-validation-pipeline)** — honest ML validation
-From-scratch (NumPy) walk-forward validation and permutation nulls — built to tell real signal from
-noise. Rigor over black-box models.
+Walk-forward validation and permutation nulls, written from scratch in NumPy, to check whether a
+result is real or just noise.
 
 **[product-scraper](https://github.com/wesseltl/product-scraper)** — dependency-light web scraper
 Paginated crawling with retry/backoff, polite rate-limiting, and clean CSV output.
 
-### 📫 Reach me
+### Contact
 
 wesseltl@gmail.com
