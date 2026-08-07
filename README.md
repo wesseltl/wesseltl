@@ -23,6 +23,14 @@ with honest analytics (volatility forecasting, anomaly detection) and risk-based
 Idempotent ingestion, unit-tested, Dockerized.
 ▶ **Live demo → https://wesseltl.github.io/crypto-data-platform/**
 
+**[data-cleaner-agent](https://github.com/wesseltl/data-cleaner-agent)** — agentic data-cleaning workflow
+A planner (rule-based or LLM) reasons about messy data and picks the cleaning steps; deterministic
+tools do the actual transformation — the model plans, trusted code executes. Unit-tested.
+
+**[dex-sim](https://github.com/wesseltl/dex-sim)** — AMM / DEX mechanics simulator
+Constant-product (Uniswap v2) and concentrated-liquidity (v3) pools: swaps, slippage, price impact
+and capital efficiency — exact `Decimal` math, unit-tested. A simulation, not a deployed exchange.
+
 **[crypto-tax](https://github.com/wesseltl/crypto-tax)** — crypto tax valuation engine
 A country-neutral core (ingest → holdings → prices) plus per-country rules plugins (Netherlands box 3
 first). Exact `Decimal` money handling, a swappable price source, unit-tested.
