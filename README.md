@@ -2,6 +2,8 @@
 
 **Data / Backend Engineer — Python · real-time data · automation**
 
+🌐 **[wesseltl.github.io](https://wesseltl.github.io)** — my freelance portal · open for freelance work
+
 I build the infrastructure data-driven products run on: real-time ingestion, storage, aggregation, and
 clean APIs — backed by a portfolio of working, tested projects. My background is in molecular
 life-science (diagnostics, sequencing, GMP-grade rigor), where I learned to treat data carefully:
