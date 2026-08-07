@@ -1,21 +1,20 @@
 ## Hi, I'm Wessel 👋
 
-**Data / Backend Engineer — Python · real-time data · automation**
+**Data & Backend Engineer — Python · real-time data · automation**
 
 🌐 **[wesseltl.github.io](https://wesseltl.github.io)** — my freelance portal · open for freelance work
 
-I build the infrastructure data-driven products run on: real-time ingestion, storage, aggregation, and
-clean APIs — backed by a portfolio of working, tested projects. My background is in molecular
-life-science (diagnostics, sequencing, GMP-grade rigor), where I learned to treat data carefully:
-validate it, question it, and never trust a result I can't reproduce. Now focused on data / backend
-engineering, with a particular interest in crypto market-data infrastructure.
+I build the data and automation software companies run on — real-time ingestion, storage, aggregation,
+APIs, and AI-agent workflows — backed by a portfolio of working, tested projects. A molecular
+life-science background (diagnostics, GMP rigor) taught me to treat data carefully: validate it,
+question it, and never trust a result I can't reproduce. Now focused on data & backend engineering.
 
 📍 Hoofddorp, Netherlands
 
 ### 🔧 What I work with
 
 `Python` · `SQL` · real-time data (websockets) · ETL & aggregation · `pandas` / `NumPy` · REST APIs ·
-`SQLite` · `Git` · `Docker` · unit testing · honest out-of-sample validation
+`SQLite` · `Git` · `Docker` · unit testing · AI-agent workflows · honest out-of-sample validation
 
 ### 📦 Featured projects
 
