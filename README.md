@@ -12,18 +12,34 @@ Hoofddorp, NL. Open to freelance and data/backend work.
 `Python` · `SQL` · websockets / real-time data · ETL & aggregation · `pandas` / `NumPy` · REST APIs ·
 `SQLite` · `Git` · `Docker` · unit testing · AI-agent workflows
 
-### Projects
+### MCP tools for AI agents
+
+A set of MCP servers that give AI agents reliable access to real, messy data. All published on PyPI and
+listed in the official MCP registry. Throughout: the model decides, tested code reads the data, so
+values are never guessed.
+
+**[excel-mcp](https://github.com/wesseltl/excel-mcp)**: read real messy `.xlsx` from an agent
+Multiple sheets, auto-detects the header row under title rows, forward-fills merged cells.
+`pip install excel-agent-mcp`
+
+**[pdf-mcp](https://github.com/wesseltl/pdf-mcp)**: extract text and tables from PDFs
+Invoices, reports, statements as clean rows instead of a flattened blob. `pip install pdf-agent-mcp`
+
+**[data-cleaner-agent](https://github.com/wesseltl/data-cleaner-agent)**: agentic CSV cleaner
+The LLM picks which cleaning steps to run; plain tested Python does the transforms, so the model never
+touches the data directly. `pip install agentic-csv-cleaner`
+
+**[crypto-price-mcp](https://github.com/wesseltl/crypto-price-mcp)**: live crypto prices for agents
+Current prices and candles, so an agent can answer "what's BTC at right now?" instead of guessing.
+`pip install hyperliquid-price-mcp`
+
+### Other projects
 
 **[crypto-data-platform](https://github.com/wesseltl/crypto-data-platform)**: real-time market-data pipeline
 Websocket collector → SQLite → OHLCV/VWAP aggregation → query API + live dashboard, with analytics
 (volatility forecasting, anomaly detection). Idempotent ingestion, unit-tested, Dockerized.
 *(Domain: crypto market data.)*
 ▶ **Live demo → https://wesseltl.github.io/crypto-data-platform/**
-
-**[data-cleaner-agent](https://github.com/wesseltl/data-cleaner-agent)**: agentic data-cleaning workflow
-A planner (rule-based, or an LLM) decides which cleaning steps a messy dataset needs. The actual
-transformations are done by plain tested Python functions, so the model never touches the data
-directly. Unit-tested.
 
 **[dex-sim](https://github.com/wesseltl/dex-sim)**: AMM / DEX mechanics simulator
 Constant-product (Uniswap v2) and concentrated-liquidity (v3) pools: swaps, slippage, price impact
