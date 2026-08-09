@@ -29,25 +29,16 @@ Invoices, reports, statements as clean rows instead of a flattened blob. `pip in
 The LLM picks which cleaning steps to run; plain tested Python does the transforms, so the model never
 touches the data directly. `pip install agentic-csv-cleaner`
 
-**[crypto-price-mcp](https://github.com/wesseltl/crypto-price-mcp)**: live crypto prices for agents
-Current prices and candles, so an agent can answer "what's BTC at right now?" instead of guessing.
+**[price-data-mcp](https://github.com/wesseltl/price-data-mcp)**: live market prices for agents
+Current prices and candles, so an agent can answer "what's the price right now?" instead of guessing.
 `pip install hyperliquid-price-mcp`
 
 ### Other projects
 
-**[crypto-data-platform](https://github.com/wesseltl/crypto-data-platform)**: real-time market-data pipeline
+**[market-data-platform](https://github.com/wesseltl/market-data-platform)**: real-time market-data pipeline
 Websocket collector → SQLite → OHLCV/VWAP aggregation → query API + live dashboard, with analytics
 (volatility forecasting, anomaly detection). Idempotent ingestion, unit-tested, Dockerized.
-*(Domain: crypto market data.)*
-▶ **Live demo → https://wesseltl.github.io/crypto-data-platform/**
-
-**[dex-sim](https://github.com/wesseltl/dex-sim)**: AMM / DEX mechanics simulator
-Constant-product (Uniswap v2) and concentrated-liquidity (v3) pools: swaps, slippage, price impact
-and capital efficiency, with exact `Decimal` math and tests. It's a simulation, not a deployed exchange.
-
-**[crypto-tax](https://github.com/wesseltl/crypto-tax)**: crypto tax valuation engine
-A country-neutral core (ingest → holdings → prices) plus per-country rules plugins (Netherlands box 3
-first). Exact `Decimal` money handling, a swappable price source, unit-tested.
+▶ **Live demo → https://wesseltl.github.io/market-data-platform/**
 
 **[ml-validation-pipeline](https://github.com/wesseltl/ml-validation-pipeline)**: honest ML validation
 Walk-forward validation and permutation nulls, written from scratch in NumPy, to check whether a
