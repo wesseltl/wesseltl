@@ -1,11 +1,11 @@
 ## Wessel ter Laak
 
 Python developer working on data pipelines, backend services, web scraping, and AI-agent tooling.
-Freelance portal: [wesseltl.github.io](https://wesseltl.github.io)
+Portfolio: [wesseltl.github.io](https://wesseltl.github.io)
 
 I spent six years working in molecular diagnostics labs before moving into software, and that's where
 I got careful with data: check it, reproduce it, don't trust a number you can't back up. Based in
-Hoofddorp, NL. Open to freelance and data/backend work.
+Hoofddorp, NL. Open to data, backend, and AI-engineering roles.
 
 ### Tech
 
