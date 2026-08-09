@@ -1,6 +1,6 @@
 ## Wessel ter Laak
 
-Building data pipelines, backend services, and AI-agent tooling in Python, mostly in my own time.
+Building data pipelines, backend services, and AI-agent tooling in Python, in my own time.
 Portfolio: [wesseltl.github.io](https://wesseltl.github.io)
 
 My background is in molecular diagnostics labs, where I got careful with data: check it, reproduce it,
